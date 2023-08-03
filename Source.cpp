@@ -118,7 +118,7 @@ void showRand() //this shows the user the word which he is required to write its
 
 
 
-    while (!cards.derWords.empty() || !cards.dasWords.empty() || !cards.dieWords.empty()) // -------------------------------- modify the flow of der das die picking
+    while (!cards.derWords.empty() || !cards.dasWords.empty() || !cards.dieWords.empty())
     {
         int randGender = pickRandom(der, das, die);
 
